@@ -1,0 +1,83 @@
+body{
+    background-color:#dcd8dd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+
+.grid-container > div {
+  outline: 1px solid #333; /* Bordure pour chaque cellule */
+  padding: 20px;
+  text-align: center;
+}
+
+img.flottant{
+  position: absolute;
+  top:300px;
+  width: 100px;
+  transform: rotate(30deg);
+
+}
+
+img.papillon2{
+  position: absolute;
+  top:100px;
+  right: 100px;
+  width: 50px; 
+  transform: rotate(30deg);
+}
+/* Contenaire avec les logos */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .container > img {
+    margin: 30px;
+  }
+  
+  /* Logo monogramme centré */
+  .logo-monogramme {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+  }
+  
+ /* Article avec texte */
+  article {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  article p {
+    background-color: #f1f1f1;
+    padding: 50px;
+    border-radius: 20px;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+ /* Mosaïque avec 4 images alignées horizontalement */
+  .mosaique {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .mosaique img {
+    width: 300x;
+    height: 300px;
+    margin: 0 10px;
+  }
+  
+  /* Footer avec le texte centré */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  
+  }
